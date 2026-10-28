@@ -1,7 +1,7 @@
 # 🥗 Hycaro Moraes | Nutrição Esportiva & Clínica
 
 <div align="center">
-  <img src="./Imagens/projeto1.PNG" alt="Preview do site Hycaro Moraes" width="100%">
+  <img src="./Imagens/projeto1.PNG" alt="Preview do site Hycaro Moraes" width="80%">
 </div>
 
 > Site institucional e profissional desenvolvido para o **Nutricionista Hycaro Moraes**, focado em atendimento clínico, desportivo, emagrecimento, performance e qualidade de vida.
