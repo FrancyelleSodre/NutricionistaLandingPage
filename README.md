@@ -10,7 +10,7 @@
 
 ## 💻 Sobre o Projeto
 
-Este projeto consiste numa página web moderna, totalmente responsiva e desenvolvida em **HTML5, CSS3 e JavaScript puro**. O site foi planeado para transmitir autoridade e facilitar a conversão de pacientes, contando com secções informativas, apresentação de planos, acesso a um clube de benefícios com descontos exclusivos, depoimentos de pacientes, secção de e-book e localização interativa do consultório.
+Este projeto consiste numa página web moderna, totalmente responsiva e desenvolvida em **HTML5, CSS3 e JavaScript**. O site foi planeado para transmitir autoridade e facilitar a conversão de pacientes, contando com secções informativas, apresentação de planos, acesso a um clube de benefícios com descontos exclusivos, depoimentos de pacientes, secção de e-book e localização interativa do consultório.
 
 ---
 
