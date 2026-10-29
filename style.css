@@ -260,6 +260,13 @@ header.scrolled {
     max-width: 800px;
 }
 
+/* Título Controle Total na Palma da Mão (Branco) */
+.app-content h2 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
 .app-image {
     order: 2;
     width: 100%;
@@ -471,10 +478,14 @@ header.scrolled {
     align-items: center;
 }
 
-.about-content h2 {
+/* Título Sobre Mim com o mesmo estilo e tamanho do Ebook */
+.about-title {
+    color: var(--primary-color);
     font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: var(--text-white);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .about-content p {
@@ -697,5 +708,3 @@ footer {
     .ebook-title { font-size: 2rem; }
     .ebook-container { padding: 0 20px; }
 }
-
-
