@@ -18,37 +18,43 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    mobileBtn.addEventListener('click', toggleMenu);
+    if (mobileBtn && navContainer) {
+        mobileBtn.addEventListener('click', toggleMenu);
 
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            if (navContainer.classList.contains('active')) {
-                toggleMenu();
-            }
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (navContainer.classList.contains('active')) {
+                    toggleMenu();
+                }
+            });
         });
-    });
+    }
 
     /* --- Sticky Header --- */
     const header = document.getElementById('header');
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
-    });
+    if (header) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    }
 
     /* --- Animações ScrollReveal --- */
-    const sr = ScrollReveal({
-        origin: 'bottom',
-        distance: '40px',
-        duration: 800,
-        delay: 100,
-        easing: 'ease-in-out',
-        reset: false
-    });
+    if (typeof ScrollReveal !== 'undefined') {
+        const sr = ScrollReveal({
+            origin: 'bottom',
+            distance: '40px',
+            duration: 800,
+            delay: 100,
+            easing: 'ease-in-out',
+            reset: false
+        });
 
-    sr.reveal('.reveal-up');
-    sr.reveal('.reveal-left', { origin: 'left' });
-    sr.reveal('.reveal-right', { origin: 'right' });
+        sr.reveal('.reveal-up');
+        sr.reveal('.reveal-left', { origin: 'left' });
+        sr.reveal('.reveal-right', { origin: 'right' });
+    }
 });
