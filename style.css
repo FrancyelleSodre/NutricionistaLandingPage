@@ -699,7 +699,7 @@ footer {
 }
 
 #sobre .about-content img {
-    max-width: 350px; /* Altere este valor para o tamanho desejado (ex: 300px, 400px) */
+    max-width: 200px; /* Altere este valor para o tamanho desejado (ex: 300px, 400px) */
     width: 100%;
     height: auto;
     margin: 20px auto;
