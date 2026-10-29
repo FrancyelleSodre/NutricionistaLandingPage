@@ -698,10 +698,4 @@ footer {
     .ebook-container { padding: 0 20px; }
 }
 
-#sobre .about-content img {
-    max-width: 200px; /* Altere este valor para o tamanho desejado (ex: 300px, 400px) */
-    width: 100%;
-    height: auto;
-    margin: 20px auto;
-    border-radius: 15px; /* Mantém os cantos arredondados, se desejar */
-}
+
