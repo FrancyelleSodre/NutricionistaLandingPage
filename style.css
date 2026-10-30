@@ -294,11 +294,11 @@ header.scrolled {
     font-size: 1.2rem;
 }
 
-/* Partners Section (Cupons) */
+/* Partners Section (Cupons) - Linhas cinzas removidas */
 .partners-section {
     background-color: var(--bg-main);
-    border-top: 1px solid #2b2a2a;
-    border-bottom: 1px solid #2b2a2a;
+    border-top: none;
+    border-bottom: none;
 }
 
 .coupon-wrapper {
@@ -471,7 +471,6 @@ header.scrolled {
     align-items: center;
 }
 
-/* Títulos com a classe .about-title (Brancos, tamanho e estilo idênticos ao do Ebook) */
 .about-title {
     color: #ffffff;
     font-size: 2.5rem;
