@@ -451,9 +451,9 @@ header.scrolled {
     color: #ffffff;
 }
 
-/* About Section (Sobre Mim) - Centralizado e Ajustado */
+/* About Section (Sobre Mim) - Fundo Preto, Maior e Centralizado */
 .about-section {
-    background-color: var(--bg-secondary);
+    background-color: var(--bg-main);
 }
 
 .about-header {
@@ -467,9 +467,9 @@ header.scrolled {
 
 .about-img-centered {
     display: block;
-    margin: 25px auto;
+    margin: 30px auto;
     border-radius: 15px;
-    max-width: 350px;
+    max-width: 500px;
     width: 100%;
     height: auto;
 }
