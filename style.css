@@ -700,3 +700,20 @@ footer {
     .ebook-title { font-size: 2rem; }
     .ebook-container { padding: 0 20px; }
 }
+
+/* Centralização da foto na seção Sobre Mim */
+.about-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.about-photo {
+    max-width: 350px; /* Ajuste este valor conforme preferir o tamanho da foto */
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
