@@ -711,7 +711,7 @@ footer {
 }
 
 .about-photo {
-    max-width: 350px; /* Ajuste este valor conforme preferir o tamanho da foto */
+    max-width: 500px; /* Ajuste este valor conforme preferir o tamanho da foto */
     width: 100%;
     height: auto;
     border-radius: 15px;
