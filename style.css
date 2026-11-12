@@ -706,12 +706,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 80%;
     margin: 25px 0;
 }
 
 .about-photo {
-    width: 90%;
+    width: 80%;
     height: auto;
     border-radius: 15px;
     display: block;
